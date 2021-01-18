@@ -31,7 +31,7 @@ class App extends React.Component {
       home:{
         title: "Hey there! I'm Mat Harvey.",
         subTitle: "Lets Discuss, Design and Digitalize your thoughts. " ,
-        button: <button id="contactBtn"> Contact me </button>
+        button: <button id="contactBtn"> <Link className="nav-link" to="/contact"><b id='contactBtnTxt'>Contact me</b></Link></button>
       },
       about:{
         title: 'About Me',
