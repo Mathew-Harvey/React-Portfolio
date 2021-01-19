@@ -76,4 +76,3 @@ class App extends React.Component {
 export default App;
 
 
-// https://www.youtube.com/watch?v=S8gfztz7IzQ&list=PLnpdZyv-BjINbUjmTUsyziHz_4fa9hM5G&index=3
