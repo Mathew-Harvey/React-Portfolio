@@ -1,7 +1,7 @@
 import React from 'react';
-import Untitled1 from '../assets/images/Untitled1.png';
-import Untitled2 from '../assets/images/Untitled2.png';
-import Untitled3 from '../assets/images/Untitled3.png';
+import automata from '../assets/images/automata.gif';
+import tbwg from '../assets/images/tbwg.gif';
+import wishlist from '../assets/images/wishlist.gif';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -15,29 +15,29 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0, 
-                    title: 'First project', 
-                    subTitle: 'First project description', 
-                    imgSrc: Untitled1, 
-                    link: 'http://thebodyweightgym.net',
-                    repoLink: 'http://github.com',
+                    title: 'Cellular Automata', 
+                    subTitle: 'This is a celluar Automaton invented by John Conways - Game of Life', 
+                    imgSrc: automata, 
+                    link: 'http://https://mathew-harvey.github.io/game_of_life/.net',
+                    repoLink: 'https://github.com/Mathew-Harvey/game_of_life',
                     selected: false
                 },
                 {
                     id: 1, 
-                    title: 'Second project', 
-                    subTitle: 'Second project description', 
-                    imgSrc: Untitled2, 
-                    link: 'http://thebodyweightgym.net',
-                    repoLink: 'http://github.com',
+                    title: 'The Bodyweight Gym Online', 
+                    subTitle: 'Its exercise, but not as you know it. Train at home, follow along.', 
+                    imgSrc: tbwg, 
+                    link: 'http://thebodyweightgym.net/online',
+                    repoLink: 'https://github.com/Mathew-Harvey/The-Bodyweight-Gym-Online',
                     selected: false
                 },   
                 {
                     id: 2, 
-                    title: 'Third project', 
-                    subTitle: 'Third project description', 
-                    imgSrc: Untitled3, 
-                    link: 'http://thebodyweightgym.net',
-                    repoLink: 'http://github.com',
+                    title: 'The Wishlist', 
+                    subTitle: 'Pushing CSS forward: Enter - The Wishlist App.', 
+                    imgSrc: wishlist, 
+                    link: 'https://festive-wish-list.herokuapp.com/',
+                    repoLink: 'https://github.com/Mathew-Harvey/wish-list',
                     selected: false
                 },
             ],
