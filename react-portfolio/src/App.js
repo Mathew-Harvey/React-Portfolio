@@ -14,6 +14,10 @@ import Footer from './components/Footer'
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import Title from './components/Title';
+import AboutTitle from './components/AboutTitle';
+import ContactTitle from './components/ContactTitle';
+
 
 
 
@@ -29,16 +33,16 @@ class App extends React.Component {
         {title: 'Contact', path: '/contact'}
       ],
       home:{
-        title: "Hey there! I'm Mat Harvey.",
-        subTitle: "Lets Discuss, Design and Digitalize your thoughts. " ,
+        title:<h1><Title></Title></h1>,
+        subTitle: " " ,
         button: <button id="contactBtn"> <Link className="nav-link" to="/contact"><b id='contactBtnTxt'>Contact me</b></Link></button>
       },
       about:{
-        title: 'About Me',
+        title: <AboutTitle></AboutTitle> ,
 
       },
       contact:{
-        title: 'Contact Me',
+        title: <ContactTitle></ContactTitle>,
 
       }
     }

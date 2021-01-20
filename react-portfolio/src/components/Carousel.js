@@ -19,6 +19,7 @@ class Carousel extends React.Component {
                     subTitle: 'First project description', 
                     imgSrc: Untitled1, 
                     link: 'http://thebodyweightgym.net',
+                    repoLink: 'http://github.com',
                     selected: false
                 },
                 {
@@ -27,6 +28,7 @@ class Carousel extends React.Component {
                     subTitle: 'Second project description', 
                     imgSrc: Untitled2, 
                     link: 'http://thebodyweightgym.net',
+                    repoLink: 'http://github.com',
                     selected: false
                 },   
                 {
@@ -35,6 +37,7 @@ class Carousel extends React.Component {
                     subTitle: 'Third project description', 
                     imgSrc: Untitled3, 
                     link: 'http://thebodyweightgym.net',
+                    repoLink: 'http://github.com',
                     selected: false
                 },
             ],

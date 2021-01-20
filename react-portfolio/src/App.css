@@ -23,5 +23,13 @@ margin:0.2em auto;
 }
 
 #contactBtnTxt{
+    align-self: baseline;
     color:white
+}
+
+#titleContainer{
+    padding-top: 2vh;
+    padding-bottom: 80px;
+    height: 350px;
+    width: 500px;
 }

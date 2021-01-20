@@ -11,6 +11,7 @@ function CardInfo(props) {
             <p className="g-card-title">{props.title}</p>
             <p className="g-card-sub-title">{props.subTitle}</p>
             <a href={props.link} target="_blank" rel="noopener noreferrer">View</a>
+            <p><a href={props.repoLink} target="_blank" rel="noopener noreferrer">Repo</a></p>
         </animated.div>
     );
 }
