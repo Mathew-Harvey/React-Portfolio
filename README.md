@@ -16,6 +16,11 @@
 - [Application ScreenShots](#Application-ScreenShots-)
 ## Demo 💻
 ![Demo Video](/assets/portfolio.gif)
+## Deployed App:
+https://mathew-harvey.github.io/React-Portfolio/
+
+IMPORTANT, CLICK ON 'HOME' TO START APP
+
 ## Description 🧐
 I wanted to learn react and begin a portfolio
 ## Motivation 🚀
