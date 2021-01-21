@@ -18,7 +18,7 @@ class Carousel extends React.Component {
                     title: 'Cellular Automata', 
                     subTitle: 'This is a celluar Automaton invented by John Conways - Game of Life', 
                     imgSrc: automata, 
-                    link: 'http://https://mathew-harvey.github.io/game_of_life/.net',
+                    link: 'https://mathew-harvey.github.io/game_of_life/',
                     repoLink: 'https://github.com/Mathew-Harvey/game_of_life',
                     selected: false
                 },
@@ -27,7 +27,7 @@ class Carousel extends React.Component {
                     title: 'The Bodyweight Gym Online', 
                     subTitle: 'Its exercise, but not as you know it. Train at home, follow along.', 
                     imgSrc: tbwg, 
-                    link: 'http://thebodyweightgym.net/online',
+                    link: 'https://mathew-harvey.github.io/The-Bodyweight-Gym-Online/index.html',
                     repoLink: 'https://github.com/Mathew-Harvey/The-Bodyweight-Gym-Online',
                     selected: false
                 },   

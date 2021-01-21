@@ -17,6 +17,7 @@ import ContactPage from './pages/ContactPage';
 import Title from './components/Title';
 import AboutTitle from './components/AboutTitle';
 import ContactTitle from './components/ContactTitle';
+import avatar from './assets/images/avatar.jpg'
 
 
 
@@ -34,15 +35,17 @@ class App extends React.Component {
       ],
       home:{
         title:<h1><Title></Title></h1>,
-        subTitle: " " ,
+        avatar: avatar,
         button: <button id="contactBtn"> <Link className="nav-link" to="/contact"><b id='contactBtnTxt'>Contact me</b></Link></button>
       },
       about:{
-        title: <AboutTitle></AboutTitle> ,
+        title: <AboutTitle></AboutTitle>, 
+        avatar: avatar,
 
       },
       contact:{
         title: <ContactTitle></ContactTitle>,
+        avatar: avatar,
 
       }
     }
@@ -65,9 +68,9 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-                <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} button={this.state.home.button} />} />
-                <Route path="/about" render={() => <AboutPage title={this.state.about.title}/>}/>
-                <Route path="/contact" render={() => <ContactPage title={this.state.contact.title}/>} />
+                <Route path="/" exact render={() => <HomePage title={this.state.home.title}  button={this.state.home.button} avatar={this.state.home.avatar} />} />
+                <Route path="/about" render={() => <AboutPage title={this.state.about.title} avatar={this.state.about.avatar}/>}/>
+                <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} avatar={this.state.contact.avatar}/>} />
 
           <Footer />
 
